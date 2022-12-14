@@ -1,0 +1,47 @@
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: lavenderblush;
+    border: 3px solid black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+
+    .menuItem > div {
+        padding: 5px 0;
+    }
+
+    .menuItem .menuTitle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+
+    .menuItem .menuTitle h4 {
+        margin:0;
+    }
+
+    .menuItem .menuButtons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+        .menuItem .menuButtons a {
+            margin: 0;
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
+            border: 1px solid black;
+            padding: .35rem;
+            min-width: 2rem;
+        }
+
+        .menuItem .menuButtons a:hover {
+            background-color: darkcyan;
+            color: white
+        }

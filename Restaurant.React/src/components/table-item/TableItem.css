@@ -1,0 +1,22 @@
+.tableItem {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    font-size: 4rem;
+    border: 2px solid black;
+    margin: 0.5rem;
+    background-color: lightcyan;
+}
+
+    .tableItem:hover {
+        background-color: lightcoral;
+    }
+
+    .tableItem.selected {
+        background-color: darkblue;
+        color: white;
+    }
+
+.smallerText {
+    font-size: 1rem;
+}

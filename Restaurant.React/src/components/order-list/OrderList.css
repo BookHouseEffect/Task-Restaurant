@@ -1,0 +1,41 @@
+.orderContainer {
+    display: block;
+    background-color: cornsilk;
+    min-height: calc(100vh - 5rem);
+}
+
+    .orderContainer h3 {
+        background-color: #282c34;
+        color: white;
+        margin: 0;
+        padding: 1rem;
+        border: 1px solid white;
+    }
+
+    .orderContainer .content {
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 17rem);
+        max-height: calc(100vh - 17rem);
+    }
+
+    .orderContainer .total {
+        margin:0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex-wrap:wrap-reverse;
+    }
+
+    .orderContainer .total a {
+        background-color: red;
+        font-size:larger;
+        margin:0;
+        padding: .5rem 1rem;
+        color:white;
+        font-weight: bolder;
+        cursor: pointer;
+        border: 1px solid white;
+    }

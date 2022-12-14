@@ -1,0 +1,11 @@
+.navigationBar {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    z-index: 100;
+    box-shadow: -2px 2px 10px white;
+}
+
+    .navigationBar nav {
+        padding: 0;
+    }

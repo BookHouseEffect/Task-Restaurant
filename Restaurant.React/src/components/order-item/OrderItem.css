@@ -1,0 +1,14 @@
+.orderItem {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    background-color: burlywood;
+    border: 3px solid black;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+    .orderItem div {
+        padding: 5px 0;
+    }

@@ -1,0 +1,17 @@
+.mainPanel {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 5rem)
+}
+
+    .mainPanel .tablesPanel {
+        flex: 3;
+    }
+
+    .mainPanel .ordersPanel {
+        flex: 2;
+    }
+
+    .mainPanel .menuPanel {
+        flex: 1;
+    }
