@@ -19,6 +19,6 @@
 - If needed perform "npm install" for the React APP.
 - Both application can be started directly from Visual Studio.
 - To add menu products, you can use the Swagger endpoint, or directly add them to the table in the database.
-- One logged in, and once the permissions are accepted, you can use the APP and the API.
+- Once logged in, and once the permissions are accepted, you can use the APP and the API.
 
 Check the screenshot for details, and do not forget to create user in the Azure AD.
